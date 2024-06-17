@@ -4,7 +4,17 @@ html{
 body{
     overflow-x: hidden;
     background-color: #DFD6C2;
+    /* font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
 }
+
 
 @media (max-width:991px){
     .sidebar{
@@ -69,11 +79,18 @@ border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     .morphing{
         height: 300px;
         width: 350px;
+        margin-left: 30%;
     }
 
     .project-2{
         flex-direction: column-reverse;
     }
+
+    #projects,#home{
+        align-items: center;
+        text-align: center;
+    }
+
 }
 
 @media (max-width:576px){
@@ -81,6 +98,7 @@ border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     .morphing{
         height: 240px;
         width: 300px;
+        margin-left: 30%;
     }
 
     .aboutme img{
@@ -92,7 +110,10 @@ border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
         text-align: center;
     }
 
-
+    #projects,#home{
+        align-items: center;
+        text-align: center;
+    }
     
 }
 
